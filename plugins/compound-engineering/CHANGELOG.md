@@ -9,6 +9,31 @@ All notable changes to the compound-engineering plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0](https://github.com/EveryInc/compound-engineering-plugin/compare/compound-engineering-v2.68.1...compound-engineering-v3.0.0) (2026-04-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* **cli:** rename all skills and agents to consistent ce- prefix ([#503](https://github.com/EveryInc/compound-engineering-plugin/issues/503))
+
+### Features
+
+* **ce-review:** add per-finding judgment loop to Interactive mode ([#590](https://github.com/EveryInc/compound-engineering-plugin/issues/590)) ([27cbaf8](https://github.com/EveryInc/compound-engineering-plugin/commit/27cbaf8161af8aad3260b58d0d9de03d6180a66c))
+
+
+### Bug Fixes
+
+* **ce-plan:** close exit gates and honor user-named resources ([#597](https://github.com/EveryInc/compound-engineering-plugin/issues/597)) ([d8e87c1](https://github.com/EveryInc/compound-engineering-plugin/commit/d8e87c17907b53bead27c223c5f10c7e765d67d8))
+* **ce-plan:** run ambiguity gate before the non-software catch-all ([#598](https://github.com/EveryInc/compound-engineering-plugin/issues/598)) ([49249d7](https://github.com/EveryInc/compound-engineering-plugin/commit/49249d73170b64046a9a6ba38186d483f28047bd))
+* **ce-pr-description:** cap description size and add pre-apply preview ([#605](https://github.com/EveryInc/compound-engineering-plugin/issues/605)) ([409b07f](https://github.com/EveryInc/compound-engineering-plugin/commit/409b07fbc75148f2c149c1e66744549f5f1dcd58))
+* **ce-release-notes:** backtick-wrap `<skill-name>` token in description ([#603](https://github.com/EveryInc/compound-engineering-plugin/issues/603)) ([2aee4d4](https://github.com/EveryInc/compound-engineering-plugin/commit/2aee4d42031892e7937640a003d11fad82420944))
+* **ce-work:** reject plan re-scoping into human-time phases ([#600](https://github.com/EveryInc/compound-engineering-plugin/issues/600)) ([b575e49](https://github.com/EveryInc/compound-engineering-plugin/commit/b575e49c291371b178775a2bd50dbb1cc16210f5))
+
+
+### Code Refactoring
+
+* **cli:** rename all skills and agents to consistent ce- prefix ([#503](https://github.com/EveryInc/compound-engineering-plugin/issues/503)) ([5c0ec91](https://github.com/EveryInc/compound-engineering-plugin/commit/5c0ec9137a7350534e32db91e8bad66f02693716))
+
 ## [2.68.1](https://github.com/EveryInc/compound-engineering-plugin/compare/compound-engineering-v2.68.0...compound-engineering-v2.68.1) (2026-04-18)
 
 
